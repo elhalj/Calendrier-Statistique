@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+ul{
+    width: 300px;
+    list-style: none;
+}
+ul a{
+    text-decoration: none;
+    color: rgb(92, 38, 38);
+    font-size: xx-small;
+}
+
+.first{
+    display: flex;
+    /*justify-content: space-around;*/
+}
+
+.town{
+   /* border: 1px solid red;*/
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 150px;
+}
+.town button{
+    border: none;
+    margin-top: 5px;
+    color: black;
+}
+
+.list{
+    border: 1px solid;
+    width: 700px;
+}
+
+.time_all{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.country{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.club_display{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+input{
+    border: none;
+    box-shadow: inset 2px 2px 2px rgb(104, 133, 159);
+}
